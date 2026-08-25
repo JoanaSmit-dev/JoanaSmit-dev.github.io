@@ -45,6 +45,9 @@
       margin-bottom: 1em;
     }
 
+    /* Keeps a product name from breaking mid-phrase when a heading wraps. */
+    .nowrap { white-space: nowrap; }
+
     /* Container */
     .container {
       max-width: 960px;
@@ -65,6 +68,7 @@
       z-index: 10;
     }
     .logo {
+      white-space: nowrap;
       font-size: 1.4rem;
       font-weight: 700;
       color: #7f3fbf;
@@ -337,7 +341,7 @@
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Perfect Your Cycling Posture with DIY Bike Fit</h1>
+      <h1 id="hero-title">Perfect Your Cycling Posture with <span class="nowrap">DIY Bike Fit</span></h1>
       <p>Capture, analyze, and optimize your bike fit instantly.</p>
       <div class="btn-group">
         <a href="https://play.google.com/store/apps/details?id=com.diy.bikefit&hl=en" class="btn-primary" role="button" aria-label="Get DIY Bike Fit on Google Play">
@@ -490,7 +494,7 @@
 
   <footer>
     <p>
-      DIY Bike Fit &middot;
+      <span class="nowrap">DIY Bike Fit</span> &middot;
       <a href="mailto:o.j.smitaite@gmail.com">o.j.smitaite@gmail.com</a> &middot;
       <a href="https://sites.google.com/view/diy-bike-fit-privacy-policy">Privacy policy</a>
     </p>
