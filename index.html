@@ -149,6 +149,20 @@
       color: #4b247a;
     }
 
+    .btn-soon {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.9);
+      border: 2px dashed rgba(255, 255, 255, 0.55);
+      padding: 12px 24px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 32px;
+      cursor: not-allowed;
+      /* Browsers dim disabled controls; keep it legible on the gradient. */
+      opacity: 1;
+    }
+
     /* Sections */
     section {
       padding: 60px 20px 40px;
@@ -329,6 +343,7 @@
         <a href="https://play.google.com/store/apps/details?id=com.diy.bikefit&hl=en" class="btn-primary" role="button" aria-label="Get DIY Bike Fit on Google Play">
           Get it on Google Play
         </a>
+        <button class="btn-soon" type="button" disabled>iOS &mdash; coming soon</button>
       </div>
     </section>
 
@@ -361,7 +376,7 @@
     <section class="container" aria-labelledby="measures-title">
       <h2 id="measures-title">Measured Angles</h2>
       <div class="measure-card">
-        <p class="measure-items">&middot; Hip &middot; Knee &middot; Ankle &middot; Elbow &middot; Shoulder &middot; Back &middot; Foot Positioning</p>
+        <p class="measure-items">&middot; Knee &middot; Hip &middot; Back &middot; Elbow &middot; Shoulder &middot; Foot</p>
         <div class="feedback-bar" aria-label="Color-coded feedback indicator"></div>
       </div>
     </section>
@@ -370,7 +385,7 @@
       <h2 id="features-title">Key Features</h2>
       <ul class="features-list">
         <li>Privacy First: Analysis happens locally on your device. No images uploaded.</li>
-        <li>Completely Free: Unlimited photo uploads and analysis.</li>
+        <li>Completely Free: Measure as many photos as you like, with no scan limits.</li>
         <li>No Sign-up Needed: Start improving your fit immediately.</li>
       </ul>
     </section>
