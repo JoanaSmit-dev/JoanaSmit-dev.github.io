@@ -1,0 +1,1 @@
+var e={name:`Kcal Lens`,homePath:`/apps/kcal-lens/`,privacyPath:`/apps/kcal-lens/privacy-policy/`,icon:`/apps/kcal-lens/icon.svg`,iconDark:`/apps/kcal-lens/icon-dark.svg`,touchIcon:`/apps/kcal-lens/apple-touch-icon.png`,email:`o.j.smitaite@gmail.com`,stores:{}},t={brand:`kcal-lens`};export{t as n,e as t};

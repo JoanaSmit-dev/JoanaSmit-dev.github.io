@@ -1,0 +1,1 @@
+var e={name:`DIY Bike Fit`,homePath:`/`,privacyPath:`/privacy-policy/`,icon:`/icon.png`,email:`o.j.smitaite@gmail.com`,stores:{googlePlay:`https://play.google.com/store/apps/details?id=com.diy.bikefit&hl=en`,appStore:`https://apps.apple.com/lt/app/diy-bike-fit/id6800860619`}};export{e as t};
